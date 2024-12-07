@@ -1,0 +1,125 @@
+.bloc-container{
+    .side-left{
+        position: fixed;
+        width: 233px;
+        height: 100vh;
+        background-color: $color_left;
+        top: 0;
+        left: 0;
+        @include responsive(700px){
+            width: 160px;
+        }
+    }
+    
+    .side-left img{
+        width: 180px;
+        height: 180px;
+        border-radius: 120px;
+        margin-left: 25px;
+        margin-top: 15px;
+        @include responsive(700px){
+            width: 120px;
+            height: 120px;
+        }
+    }
+
+    .side-left hr{
+        width: 130px;
+        height: 3px;
+        background-color: brown;
+    }
+
+    .side-left ul{
+        list-style-type: none;
+    }
+    
+    .side-left ul li{
+        padding: 25px;
+        @include responsive(700px){
+            margin-left: -30px;
+        }
+    }
+    
+    .side-left ul li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .fa-facebook {
+        color: #3B5998;
+        font-size: 30px;
+    }
+    
+    .fa-linkedin {
+        color: #007bb5;
+        font-size: 30px;
+    }
+    
+    .fa-twitter {
+        color: #55ACEE;
+        font-size: 30px;
+    }
+    
+    .lienssocial{
+        margin-top: 1rem;
+        margin-left: 25%;
+    }
+
+    .side-right{
+        width: $val3;
+        margin-left: 224px;
+        @include responsive(700px){
+            margin-left: 150px;
+        }
+    }
+    
+    .info{
+        padding: 12px 30px;
+    }
+    
+    .info h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        @include responsive(700px){
+            font-size: 20px;
+        }
+        @include responsive(400px){
+            font-size: 17px;
+        }
+    }
+    
+    .info p{
+        font-size: 20px;
+        @include responsive(700px){
+            font-size: 15px;
+            width: 200px;
+        }
+        @include responsive(710px){
+            width: 550px;
+        }
+        @include responsive(900px){
+            width: 1000px;
+        }
+        @include responsive(400px){
+            font-size: 14px;
+            width: 155px;
+        }
+    }
+    
+    .side-right hr{
+        margin-left: 30px;
+        @include responsive(700px){
+            width: 200px;
+        }
+        @include responsive(710px){
+            width: 520px;
+        }
+        @include responsive(900px){
+            width: 1000px;
+        }
+        @include responsive(400px){
+            width: 155px;
+        }
+    }
+}
