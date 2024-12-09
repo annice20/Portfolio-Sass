@@ -46,17 +46,17 @@
     }
 
     .fa-facebook {
-        color: #3B5998;
+        color: $fb_color;
         font-size: 30px;
     }
     
     .fa-linkedin {
-        color: #007bb5;
+        color: $linkedin_color;
         font-size: 30px;
     }
     
     .fa-twitter {
-        color: #55ACEE;
+        color: $twitter_color;
         font-size: 30px;
     }
     
@@ -75,36 +75,6 @@
     
     .info{
         padding: 12px 30px;
-    }
-    
-    .info h1{
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 35px;
-        @include responsive(700px){
-            font-size: 20px;
-        }
-        @include responsive(400px){
-            font-size: 17px;
-        }
-    }
-    
-    .info p{
-        font-size: 20px;
-        @include responsive(700px){
-            font-size: 15px;
-            width: 200px;
-        }
-        @include responsive(710px){
-            width: 550px;
-        }
-        @include responsive(900px){
-            width: 1000px;
-        }
-        @include responsive(400px){
-            font-size: 14px;
-            width: 155px;
-        }
     }
     
     .side-right hr{

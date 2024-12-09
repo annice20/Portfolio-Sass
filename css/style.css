@@ -3,6 +3,46 @@ main {
   padding: 0;
 }
 
+.info h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+@media screen and (max-width: 700px) {
+  .info h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .info h1 {
+    font-size: 17px;
+  }
+}
+.info p {
+  font-size: 20px;
+}
+@media screen and (max-width: 700px) {
+  .info p {
+    font-size: 15px;
+    width: 200px;
+  }
+}
+@media screen and (min-width: 710px) {
+  .info p {
+    width: 550px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .info p {
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .info p {
+    font-size: 14px;
+    width: 155px;
+  }
+}
 .bloc-container .side-left {
   position: fixed;
   width: 233px;
@@ -76,46 +116,6 @@ main {
 }
 .bloc-container .info {
   padding: 12px 30px;
-}
-.bloc-container .info h1 {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 35px;
-}
-@media screen and (max-width: 700px) {
-  .bloc-container .info h1 {
-    font-size: 20px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .bloc-container .info h1 {
-    font-size: 17px;
-  }
-}
-.bloc-container .info p {
-  font-size: 20px;
-}
-@media screen and (max-width: 700px) {
-  .bloc-container .info p {
-    font-size: 15px;
-    width: 200px;
-  }
-}
-@media screen and (min-width: 710px) {
-  .bloc-container .info p {
-    width: 550px;
-  }
-}
-@media screen and (min-width: 900px) {
-  .bloc-container .info p {
-    width: 1000px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .bloc-container .info p {
-    font-size: 14px;
-    width: 155px;
-  }
 }
 .bloc-container .side-right hr {
   margin-left: 30px;
